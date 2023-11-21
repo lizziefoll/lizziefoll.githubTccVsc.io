@@ -180,70 +180,7 @@ h6 {
   color: black;
 }
 
-.navbar .dropdown ul {
-  display: block;
-  position: absolute;
-  left: 24px;
-  top: calc(100% + 30px);
-  margin: 0;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 0;
-  visibility: hidden;
-  background: #F4D160;
-  box-shadow: 0px 0px 30px rgba(244, 209, 96, 1);
-  transition: 0.3s;
-}
 
-.navbar .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar .dropdown ul a {
-  padding: 10px 20px;
-  font-size: 14px;
-  text-transform: none;
-  color: #666666;
-}
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #2dc997;
-}
-
-.navbar .dropdown:hover>ul {
-  opacity: 1;
-  top: 100%;
-  visibility: visible;
-}
-
-.navbar .dropdown .dropdown ul {
-  top: 0;
-  left: calc(100% - 30px);
-  visibility: hidden;
-}
-
-.navbar .dropdown .dropdown:hover>ul {
-  opacity: 1;
-  top: 0;
-  left: 100%;
-  visibility: visible;
-}
-
-@media (max-width: 1366px) {
-  .navbar .dropdown .dropdown ul {
-    left: -90%;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    left: -100%;
-  }
-}
 
 /**
 * Mobile Navigation 
@@ -326,40 +263,6 @@ h6 {
   margin: 15px;
 }
 
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #F4D160;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
-  color: #2dc997;
-}
-
-.navbar-mobile .dropdown>.dropdown-active {
-  display: block;
-}
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -429,10 +332,6 @@ h6 {
 }
 
 
-#hero .btn-get-started:hover {
-  background: #2dc997;
-  border: 2px solid #2dc997;
-}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -489,6 +388,7 @@ h6 {
     display: inline-block;
   }
 }
+
 /*--------------------------------------------------------------
 #Inicio dos blocos de texto
 --------------------------------------------------------------*/
@@ -538,44 +438,6 @@ h6 {
 /*-------------------------------------------------------------recomend-
 # recomend Section
 --------------------------------------------------------------*/
-.recomend .recomend-flters {
-  padding: 0 0 20px 0;
-  margin: 0 auto;
-  list-style: none;
-  text-align: center;
-}
-
-.recomend .recomend-flters li {
-  cursor: pointer;
-  display: inline-block;
-  padding: 0;
-  font-size: 18px;
-  font-weight: 500;
-  margin: 0 10px;
-  line-height: 1;
-  transition: all 0.3s ease-in-out;
-}
-
-.recomend .recomend-flters li:hover,
-.recomend .recomend-flters li.filter-active {
-  color: var(--color-primary);
-}
-
-.recomend .recomend-flters li:first-child {
-  margin-left: 0;
-}
-
-.recomend .recomend-flters li:last-child {
-  margin-right: 0;
-}
-
-@media (max-width: 575px) {
-  .recomend .recomend-flters li {
-    font-size: 14px;
-    margin: 0 5px;
-  }
-}
-
 .recomend .recomend-wrap {
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -842,14 +704,6 @@ h6 {
   margin-right: 6px;
 }
 
-.footer .footer-info .logo span {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: #666666;
-  font-family: var(--font-primary);
-}
-
 .footer .social-links a {
   display: flex;
   align-items: center;
@@ -865,26 +719,13 @@ h6 {
   margin: 5px;
 }
 
-.footer .social-links i {
-  margin: 0;
-}
-
 .footer .social-links a:hover {
   color: #2dc997;
   border-color: #2dc997;
 }
 
-
 .footer .footer-links {
   margin-bottom: 60px;
-}
-
-
-.footer .footer-links ul a {
-  color: rgba(255, 255, 255, 0.7);
-  transition: 0.3s;
-  display: inline-block;
-  line-height: 1;
 }
 
 .footer .footer-links ul a:hover {
@@ -918,11 +759,11 @@ h6 {
 
 /*** Back to top Button ***/
 .btn {
-  margin-left: 1300px;
-  margin-top: 1em;
+  margin-left: 1200px;
+  margin-top: 1rem;
   font-weight: 500;
   text-transform: uppercase;
-  transition: .5s;
+  transition: .3s;
 }
 
 .btn.btn-primary{
