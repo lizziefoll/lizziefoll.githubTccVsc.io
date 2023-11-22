@@ -751,7 +751,7 @@ h6 {
 
 /*** Back to top Button ***/
 .btn {
-  margin-left: 1200px;
+  margin-left: auto;
   margin-top: 1rem;
   font-weight: 500;
   text-transform: uppercase;
