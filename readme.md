@@ -7,4 +7,4 @@
 
 * Instituição: IFPR Campus Cascavel
 
-![Texto Alternativo](https://qrco.de/beZd2f)
+![Texto Alternativo](https://l.ead.me/)
