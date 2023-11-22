@@ -6,3 +6,5 @@
 * Coorientadora: Eliane Brunetto Pertile
 
 * Instituição: IFPR Campus Cascavel
+
+![Texto Alternativo](https://qrco.de/beZd2f)
