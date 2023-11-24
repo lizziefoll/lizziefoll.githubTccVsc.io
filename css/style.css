@@ -431,12 +431,44 @@ h6 {
 .SD img{
   border-radius: 25px;
   margin:auto; 
-  height: 300px;
+  height: 400px;
   width: 600px;
 
 }
 
-
+.SD .content+.content {
+  margin-top: 100px;
+}
+  
+.SD .content h3 {
+  flex-direction: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #F4D160 !important;
+}
+  
+.SD .content ul {
+  flex-direction: center;
+  list-style: none;
+  padding: 0;
+}
+  
+.SD .content ul li {
+  flex-direction: center;
+  padding-bottom: 10px;
+}
+  
+.SD .content ul i {
+  flex-direction: center;
+  font-size: 30px;
+  padding-right: 2px;
+  color: #A8DF8E;
+  line-height: 0;
+}
+  
+.SD .content p:last-child {
+  margin-bottom: 0;
+}
 
 /*-------------------------------------------------------------recomend-
 # recomend Section
